@@ -1,0 +1,85 @@
+:root {
+    --cambio-color: rgb(247, 237, 237);
+    --cambio-fondo: gray
+}
+
+
+#uno,
+#dos,
+#tres {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: transform 0.5s ease;
+
+
+}
+
+.variables p:hover {
+    transform: translateY(-5px);
+    background: rgb(186, 3, 252);
+    color: var(--cambio-color);
+    background-color: var(--cambio-fondo);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.variables {
+    display: block;
+    background: rgb(236, 120, 100);
+}
+
+.texto {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.u {
+
+    background: rgb(145, 144, 144);
+    color: white;
+    font-size: 16px;
+    width: 700px;
+    float: left;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.d {
+
+    background: rgb(74, 122, 206);
+    color: white;
+    font-size: 16px;
+    width: 260px;
+    float: right;
+    margin-top: 1px;
+}
+
+@media screen and (max-width: 960px) {
+    .texto {
+        width: 100%;
+    }
+
+    .u {
+        width: 70%;
+    }
+
+    .d {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .u {
+        width: 100%;
+    }
+
+    .d {
+        width: 100%;
+    }
+}
