@@ -1,0 +1,171 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(ciudad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+:root {
+    --fondo: rgb(245, 247, 247);
+    --letras: rgb(1, 12, 9);
+}
+
+.title {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ededed;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    background: inherit;
+    color: black
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    border: 2px solid #ededed;
+    border-radius: 5px;
+    padding: 1px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0px 2px #ededed;
+    margin: 4px;
+    color: black;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--letras);
+    background-color: var(--fondo);
+}
+
+#clasicos,
+#inicio,
+#deportivo,
+#exotico {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    grid-column: 1;
+    grid-row: 2 / 5;
+
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: #cacac6;
+    /* Fondo oscuro */
+    color: white;
+    /* Texto blanco */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    margin: 1px;
+    /* Espaciado entre cards */
+    box-shadow: 0 3px 0 3px inherit;
+    /* Sombra */
+
+}
+
+/* Estilos para la imagen dentro de la card */
+.card-img {
+    width: 100%;
+    /* Ancho completo */
+    height: auto;
+    /* Altura automática */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s ease;
+
+
+
+
+}
+
+/* Estilos para el overlay de la imagen */
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    /* Fondo semitransparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity .3s ease;
+    opacity: 0;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 2;
+
+}
+
+/* Estilos para el título de la card */
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: end;
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    color: white;
+    font-size: 30px;
+
+}
+
+/* Estilos para el texto de la card */
+.card-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: justify;
+    transition: opacity .3s ease;
+    opacity: 0;
+    position: absolute;
+}
+
+.card:hover .card-text {
+    opacity: 1;
+}
