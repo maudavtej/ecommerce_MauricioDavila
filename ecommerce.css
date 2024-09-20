@@ -24,6 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Protest Guerrilla", sans-serif;
+
 }
 
 h2 {
@@ -32,7 +33,8 @@ h2 {
     font-weight: bold;
     margin: 20px;
     background: inherit;
-    color: black
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
@@ -61,7 +63,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: var(--letras);
     background-color: var(--fondo);
 }
 
