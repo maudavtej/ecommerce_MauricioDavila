@@ -18,3 +18,5 @@ function addCards() {//declaramos la funcion//
   }
   document.querySelector('.container').innerHTML = array.join("");
 };//esta linea nos permite quitar las comas entre cada uno de los elementos de la lista vacia que habiamos creado//
+
+console.log(addCards());
