@@ -181,3 +181,39 @@ a:hover {
     font-weight: bold;
 
 }
+
+#mustang {
+
+
+    font-size: 30px;
+    color: rgb(244, 114, 28);
+    top: 130px;
+    left: 20px;
+    font-weight: 900;
+
+
+
+}
+
+#dolar {
+    right: 25px;
+    top: 170px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+
+#detalle {
+    color: crimson;
+    font-weight: bolder;
+    top: 85%;
+    left: 10px;
+
+}
+
+#cantidad {
+    color: black;
+
+    font-weight: bold;
+
+}

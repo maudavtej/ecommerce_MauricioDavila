@@ -12,7 +12,7 @@ function addCards() {//declaramos la funcion//
     <h5 class="card-title">Auto </h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-text"><small>Last updated 3 mins ago</small></p>
-     <a href = "/productos.html" class= "btn btn-primary">MAS..</a>
+     <a href = "/productos.html" target="_blank" rel="noopener noreferrer" class= "btn btn-primary">MAS..</a>
   </div>
 </div>`;
     array.push(card);//con esta linea de codigo, agregamos nuestras cards y se guardan//
