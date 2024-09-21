@@ -170,3 +170,14 @@ a:hover {
 .card:hover .card-text {
     opacity: 1;
 }
+
+.btn {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 70%;
+    right: 70%;
+    font-size: 8px;
+    font-weight: bold;
+
+}
