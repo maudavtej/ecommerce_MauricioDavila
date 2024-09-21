@@ -90,7 +90,7 @@ a:hover {
 }
 
 .card:hover {
-    background-color: #cacac6;
+    background-color: #f9f9f6;
     /* Fondo oscuro */
     color: white;
     /* Texto blanco */
@@ -209,12 +209,7 @@ a:hover {
 
 #cantidad {
     color: black;
-
+    position: relative;
     font-weight: bold;
-
-}
-
-#BMW {
-    display: block;
 
 }
