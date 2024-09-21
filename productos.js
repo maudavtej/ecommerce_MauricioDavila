@@ -8,10 +8,10 @@ class Producto {
     }
 }
 
-let prod = new Producto("BMW", "AUTO DEPORTIVO", "3 disponibles", "250,000,000$", "https://66d9ee6caa07a954166f10ed--gregarious-melba-cacdba.netlify.app/1.jpg")
+let prod = new Producto("BMW cx-304", "AUTO DEPORTIVO", "3 disponibles", "250,000,000$", "https://66d9ee6caa07a954166f10ed--gregarious-melba-cacdba.netlify.app/1.jpg")
 
 const card1 =
-    `<div class="card" style="width: 18rem;">
+    `<div class="card" id= "BMW" style="width: 18rem;">
   <img src= ${prod.imagen} id="imgBMW" class="card-img-top" alt=${prod.titulo}>
   <div class="card-body">
     <h5 class="card-title" id="mustang">${prod.titulo}</h5>

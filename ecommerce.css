@@ -82,7 +82,6 @@ a:hover {
     padding: 20px;
     grid-column: 1;
     grid-row: 2 / 5;
-
 }
 
 .card {
@@ -101,7 +100,6 @@ a:hover {
     /* Espaciado entre cards */
     box-shadow: 0 3px 0 3px inherit;
     /* Sombra */
-
 }
 
 /* Estilos para la imagen dentro de la card */
@@ -114,10 +112,6 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     transition: .3s ease;
-
-
-
-
 }
 
 /* Estilos para el overlay de la imagen */
@@ -179,20 +173,21 @@ a:hover {
     right: 70%;
     font-size: 8px;
     font-weight: bold;
-
 }
 
 #mustang {
 
 
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(244, 114, 28);
-    top: 130px;
+    top: 170px;
     left: 20px;
     font-weight: 900;
+    text-decoration: overline;
+}
 
-
-
+.card:hover #mustang {
+    visibility: hidden;
 }
 
 #dolar {
@@ -201,6 +196,7 @@ a:hover {
     width: 80px;
     height: 20px;
     text-align: center;
+    font-size: 8px;
 }
 
 #detalle {
@@ -215,5 +211,10 @@ a:hover {
     color: black;
 
     font-weight: bold;
+
+}
+
+#BMW {
+    display: block;
 
 }
