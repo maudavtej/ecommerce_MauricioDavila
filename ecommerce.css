@@ -192,24 +192,52 @@ a:hover {
 
 #dolar {
     right: 25px;
-    top: 170px;
+    top: 140px;
     width: 80px;
     height: 20px;
     text-align: center;
     font-size: 8px;
 }
 
+
+
 #detalle {
-    color: crimson;
-    font-weight: bolder;
-    top: 85%;
-    left: 10px;
 
-}
-
-#cantidad {
     color: black;
     position: relative;
     font-weight: bold;
 
+
+
+}
+
+.cantidad {
+    color: crimson;
+    font-weight: bolder;
+    position: absolute;
+    top: 170px;
+    right: 20px;
+}
+
+.card:hover .cantidad {
+    visibility: hidden;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card-body {
+    height: 30px;
+    padding: 1px;
+    margin: 0.5px;
+
+}
+
+.card:hover .card-body {
+    height: 120px;
+    overflow: scroll;
 }
