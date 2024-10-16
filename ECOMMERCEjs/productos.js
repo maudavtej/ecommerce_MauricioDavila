@@ -23,4 +23,4 @@ const card1 =
   </div>
 </div>`;
 
-document.querySelector(".producto").innerHTML = card1
+document.querySelector(".producto").innerHTML = card1form - control me - 2

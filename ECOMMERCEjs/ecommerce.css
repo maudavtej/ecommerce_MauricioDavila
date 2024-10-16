@@ -228,6 +228,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+
 }
 
 .card-body {
@@ -240,4 +241,9 @@ a:hover {
 .card:hover .card-body {
     height: 120px;
     overflow: scroll;
+}
+
+.form-control me-2 {
+    display: grid;
+    position: relative;
 }
